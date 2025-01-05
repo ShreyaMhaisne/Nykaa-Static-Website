@@ -1,0 +1,222 @@
+*{
+    margin:0%;
+    padding: 0%;
+}
+
+.f-nav{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    background-color: rgb(255, 151, 169);
+    padding: 18px;
+}
+
+.feature
+{
+    display:flex;
+}
+
+.feature .app{
+    display: flex;
+    margin-inline: 22px;
+}
+
+.feature .app i{
+    margin-inline: 8px;
+}
+
+.sec-nav{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    padding: 11px;
+}
+
+.sec-nav ul li img{
+    width: 8%;
+    margin-left:22px;
+}
+
+.sec-nav ul li a{
+    margin-inline:22px;
+}
+
+.sec-nav .inputs button{
+    display: flex;
+}
+
+.sec-nav .inputs input{
+    width : 220px;
+    background-color: rgb(225,217,217);
+    border : none;
+    outline :none;
+    text-align : center;
+    font-size: 16px;
+}
+
+.sec-nav .inputs button{
+    width: 80px;
+    background-color: rgb(251, 106 ,130);
+    color: white;
+    font-size: 17px;
+    border: none;
+    border-radius: 5px;
+}
+
+.item{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+}
+
+.item ul li a{
+    list-style:none;
+    margin-inline: 24px;
+    text-align: center;
+}
+
+.item ul li button{
+    width: 100px;
+    height: 34px;
+    background-color: rgb(249,61,92);
+    color: white;
+    font-size: 17px;
+    border: none;
+    border-radius: 5px;
+}
+
+.item ul li{
+    list-style: none;
+}
+
+.main-page img{
+    width: 100%;
+}
+
+.pink img{
+    width: 100%;
+}
+
+.pink h2{
+    text-align: center;
+    padding: 7px;
+}
+
+.brand h2{
+    text-align: center;
+}
+
+.card{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    margin-inline: 22px;
+}
+
+.card img{
+    margin-inline: 22px;
+    width: 44%;
+}
+
+.brand h2{
+    text-align: center;
+    padding: 22px;
+}
+
+.gift h2{
+     text-align: center;
+     padding: 22px;
+}
+
+.gift p{
+    text-align: left;
+    text-decoration:double;
+
+}
+
+.gifts{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+}
+
+.gifts img{
+    margin-inline: 25px;
+    width:44%;
+}
+
+.only-nykaa h2{
+    text-align: center;
+    padding: 22px;  
+}
+
+.only-nykaa .only{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+}
+
+.only img{
+    width: 44%;
+    margin-inline: 22px;
+}
+
+.accesories h2{
+   text-align: center;
+}
+
+.accesories p{
+    text-align: right;
+}
+
+.curation img{
+    width: 30%;
+    margin-inline: 2px;
+
+}
+
+.alert{
+    text-align:center;
+    padding: 30px;
+    width: 24%;
+}
+
+.heading p{
+    text-align: center;
+    font-size: larger;
+    font-display: bold;
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    background-color: rgb(178, 177, 177);
+}
+
+.footer .list{
+    flex-direction:column;
+}
+
+.footer .list ul li{
+    list-style : none;
+}
+
+.footer .list ul li a{
+    font-weight: 600;
+    font-size: 13px;
+}
+
+.footer .list ul li h2{
+    font-size:18px;
+}
+
+.para h2{
+    text-align:inherit;
+    color:rgb(0, 0, 0);
+}
+.para p{
+    font-size: large;
+    color: rgb(13, 13, 13);
+
+}
