@@ -555,3 +555,141 @@ button {
 .gift-text.right {
   text-align: left;
 }
+/* For tablets and smaller (<= 1024px) */
+@media (max-width: 1024px) {
+  .navbar {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .logo {
+    margin-left: 0;
+    text-align: center;
+  }
+
+  .main-links {
+    flex-wrap: wrap;
+    text-align: center;
+  }
+
+  .search-box {
+    margin-top: 10px;
+  }
+
+  .container, .flash-sale-container, .brand-cards, .gift-banners {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .card, .flash-card, .flash-card1, .flash-card2, 
+  .brand-card, .brand-cardd, .brand-carddd {
+    width: 90%;
+    height: auto;
+  }
+
+  .shop-all-btn button {
+    padding: 15px 50px; /* Reduce from huge padding */
+  }
+}
+
+/* For mobile phones (<= 768px) */
+@media (max-width: 768px) {
+  .top-banner {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .top-icons span {
+    margin: 5px;
+    font-size: 12px;
+  }
+
+  .navbar {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .main-links a {
+    display: block;
+    margin: 5px 0;
+  }
+
+  .search-box {
+    flex-direction: column;
+    width: 90%;
+  }
+
+  .search-box input {
+    width: 100%;
+  }
+
+  .subnav {
+    flex-wrap: wrap;
+    padding-left: 5%;
+  }
+
+  .card, .flash-card, .flash-card1, .flash-card2 {
+    height: 250px;
+  }
+
+  .gift-box {
+    flex: 1 1 100%;
+    height: 150px;
+  }
+
+  .footer-top, .footer-links, .footer-icons {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .footer-col input[type="email"] {
+    width: 80%;
+    margin-bottom: 10px;
+  }
+
+  .shop-all-btn button {
+    padding: 12px 30px;
+    font-size: 16px;
+  }
+    footer {
+    font-size: 13px;
+    padding: 12px;
+  }
+
+  .footer-links {
+    flex-direction: column; /* stack links vertically */
+    gap: 8px;
+    
+  }
+}
+
+/* For very small phones (<= 480px) */
+@media (max-width: 480px) {
+  body {
+    font-size: 14px;
+  }
+
+  .text h3 {
+    font-size: 1.2rem;
+  }
+
+  .text p {
+    font-size: 0.9rem;
+  }
+
+  button {
+    padding: 8px 12px;
+    font-size: 14px;
+  }
+
+    footer {
+    font-size: 13px;
+    padding: 12px;
+  }
+
+  .footer-links {
+    flex-direction: column; /* stack links vertically */
+    gap: 8px;
+  }
+}
+
